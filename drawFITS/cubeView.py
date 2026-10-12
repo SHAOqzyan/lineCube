@@ -573,7 +573,7 @@ if __name__ == "__main__":
         if os.path.isfile(args.filename):
             print("Drawing all spectra of file {}".format(args.filename))
             doDraw.set_FITS(args.filename)
-            doDraw.drawAllPointsTest(redo=args.redo)
+            doDraw.drawAllPoints(redo=args.redo)
 
         else:
             print("File {} does not exist!!!".format(args.filename))
