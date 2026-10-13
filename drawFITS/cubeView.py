@@ -556,7 +556,7 @@ if __name__ == "__main__":
                 print("Processing ",eachFile)
                 doDraw.set_FITS(eachFile)
 
-                doDraw.drawAllPointsTest(redo=args.redo )
+                doDraw.drawAllPoints(redo=args.redo )
 
                 gc.collect()
 
