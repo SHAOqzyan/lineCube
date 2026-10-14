@@ -299,7 +299,7 @@ class drawCube():
 
         fontsize = 13
 
-        rc('text', usetex=True)
+        rc('text', usetex=False)
         rc('font', **{'family': 'sans-serif', 'size': fontsize, 'serif': ['Helvetica']})
         mpl.rcParams['text.latex.preamble'] = r'\usepackage{tgheros} \usepackage{sansmath} \sansmath'
         #plt.rcParams['axes.facecolor'] = 'white'
